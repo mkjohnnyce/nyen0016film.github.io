@@ -1,0 +1,203 @@
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+  margin:0;
+  padding:0;
+  border:0;
+  vertical-align:baseline;
+  font:inherit;
+}
+
+body {
+  font:100% Cantarell, Arial, Helvetica, sans-serif;
+  line-height:1.5;
+  background:#fff;
+  color:rgb(5, 5, 5);
+  font-weight:normal;
+  font-style:normal;
+}
+
+header {
+  background:rgb(112, 3, 13);
+  /*width:100%;*/
+  /*padding-top:1px;*/
+  overflow:hidden;
+  /*margin-bottom:3.5em;*/
+  margin-top:3.4em;
+}
+
+header h1 {
+  color:#fff;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+  header {
+    height:165px;
+  }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+  header h1 {
+    padding-left:110px;
+    line-height:165px;
+    width:270px;
+    margin:0 auto;
+    /*background:url(../_images/MK%20John%20FILM.png) no-repeat left center;*/
+  }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+  article p {
+    font-size:1em;
+    margin:0;
+    float:left;
+    clear:left;
+    width:40%;
+  }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+  article p.pubdate {
+    font-size:1em;
+    text-transform:uppercase;
+    float:left;
+    clear:left;
+    margin:0 0 4em;
+    width:40%;
+  }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+  article .preview {
+    height:175px;
+    position:absolute;
+    top:0;
+    right:0;
+    width:55%;
+  }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+  .weddingfilm .preview {
+    background:url(../_images/SM%20Wedding%20Cine.jpg) no-repeat;
+  }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+  .weddingphotos .preview {
+    background:url(../_images/SM%20weddingphtos.jpg) no-repeat;
+  }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+  .productionsevent .preview {
+    background:url(../_images/productions.jpg) no-repeat;
+  }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+  .videoWrapper iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+  }
+}
+
+.video-responsive {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.video-responsive iframe {
+  left:0;
+  top:-0px;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+@media only screen and (min-width:769px) {
+  body {
+    width:90%;
+    margin:0 auto;
+    /*min-width:1024px;*/
+    /*max-width:1280px;*/
+  }
+}
+
+@media only screen and (min-width:769px) {
+  .video-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    right:50px;
+  }
+}
+
+@media only screen and (min-width:769px) {
+  .video-responsive iframe {
+    left:50;
+    top:-90px;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+}
+
+@media only screen and (min-width:769px) {
+  header {
+    height:165px;
+  }
+}
+
+@media only screen and (min-width:769px) {
+  header h1 {
+    font-size:3.2em;
+    padding-left:110px;
+    line-height:100px;
+    line-height:165px;
+    margin-right:.5em;
+    float:left;
+    margin-left:3.9%;
+    display:inline;
+  }
+}
+
+@media only screen and (min-width:769px) {
+  .mission {
+    height:350px;
+    padding-left:3.9%;
+    overflow:hidden;
+    margin-bottom:4em;
+    position:relative;
+  }
+}
+
+@media only screen and (min-width:769px) {
+  .mission h1 {
+    font-size:2.2em;
+    color:#fff;
+    padding-top:290px;
+    letter-spacing:.1em;
+  }
+}
+
+@media only screen and (min-width:769px) {
+  .mission p {
+    width:21%;
+    padding:1% 1% 0;
+    height:350px;
+    font-size:1em;
+    color:#fff;
+    background:rgba(129,3,3,0.54);
+    position:absolute;
+    top:0;
+    right:40px;
+  }
+}
+
